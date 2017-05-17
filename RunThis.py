@@ -2,7 +2,7 @@ import Rpi.GPIO as GPIO
 
 
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(25,GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+GPIO.setup(6,GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
 
 
